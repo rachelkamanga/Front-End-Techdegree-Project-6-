@@ -1,25 +1,16 @@
 # Front End Techdegree Project 6 
 
-In this project, I had to create a browser version of "Wheel of Success", a word guessing game where players click letters from an onscreen keyboard to try to guess a random phrase. 
+* Developed an interactive word-guessing browser game using JavaScript, featuring dynamic gameplay and real-time user interaction
+* Implemented program logic to randomly select phrases, split them into characters, and render them dynamically on the game board
+* Built functionality to handle user input via an onscreen keyboard, including validation and disabling previously selected letters
+* Designed game logic to track correct and incorrect guesses, enforcing a maximum attempt limit and triggering win/loss conditions
+* Updated the UI dynamically to reveal correctly guessed letters and provide visual feedback to the player
+* Enhanced user experience by adding reset functionality to restart the game, including generating new phrases and resetting game state
+* Applied CSS transitions to animate letter reveals, improving interactivity and visual engagement
+* Ensured consistent performance through cross-browser testing on Chrome, Firefox, and Microsoft Edge
+* Delivered a feature-rich implementation that exceeded project requirements and expectations
 
-Using Javascipt, I had to create an array of phrases and write functions to choose a random phrase from that array, split the phrase into letters, and put those letters onto the game board. 
-
-For each guess a player makes, I added programming to compare the letter the player has chosen with the random phrase. If the letter is in the phrase, I added programming to update the game board with the chosen letters. 
-
-A player can keep choosing letters until they have five incorrect guesses. If the player completes the phrase before they run out of guesses, a winning screen will display. If the player guesses incorrectly 5 times, a losing screen will display. 
-
-A player can guess a letter only once. After they've guessed a letter, the letter is disabled. 
-
-I also went for the Exceeds Expectations Grading where I had to: 
-
-  1. Create CSS transitions for each letter in the phrase display as they are revealed. 
-  2. Add a button to the "success" and "failure" screens that resets the game. I had to create the buttons for the keyboard, generate a new random phrase, and set the number of misses to zero. 
-
-  Browsers tested for compatility: 
-
-  1. Chrome
-  2. Firefox
-  3. Edge
+Technologies: HTML, CSS, JavaScript
 
   Grade: Exceeds Expectations 
 
